@@ -1,0 +1,17 @@
+to use perticular domain we require to tell next about it
+by creating next.config.js file
+
+className = "group" it groups all items in one group so we
+can apply effects like hver in whole group and change perticular
+element.(HeaderItem)
+
+flex-grow => seprate items as far as possible we can adjust it with set like max-w-2xl 
+
+last:pr-24 => gives padding to last element (Nav)
+active:text-red-500 => it turs text color to red when it clicked
+
+For hiding scrollbar
+=> npm i tailwind-scrollbar-hide
+=> update plugins in tailwind.config.js to => [require("tailwind-scrollbar-hide")]
+
+className='truncate' => long text represent as ... at end of screen(Thumbnail)

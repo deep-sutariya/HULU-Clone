@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* for BG color in allover webapp */
+
+@layer base{
+    body{
+        @apply bg-[#06202A] text-gray-300
+    }
+}
