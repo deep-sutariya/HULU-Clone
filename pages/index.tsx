@@ -26,6 +26,7 @@ export default function Home(props) {
   );
 }
 
+
 // server(execute first)
 // fetch url user come with..
 export async function getServerSideProps(context) {
